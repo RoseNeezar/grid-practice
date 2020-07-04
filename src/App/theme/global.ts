@@ -7,17 +7,17 @@ export default createGlobalStyle`
      *::before {
        margin: 0;
        padding: 0;
-       box-sizing: border-box;
+       box-sizing: inherit;
      }
      html {
+       box-sizing: inherit;
        font-size: 62.5%;
      }
      body {
-       box-sizing: inherit;
-       font-family: ${theme.fontFamily};
-       background-color: ${theme.colors.white};
-       -webkit-font-smoothing: antialiased;
-       line-height: 1.5;
+       font-family: ${theme.fontPrimary};
+       color: ${theme.colors.greyDark2};
+       font-weight: 300;
+       line-height: 1.6;
      }
    `}
 `;

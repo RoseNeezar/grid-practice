@@ -1,73 +1,17 @@
 //I usually start with themes, it gets added over time, some redundant but easier later to do dark/light mode
 export default {
   colors: {
-    black: "#000",
-    white: "#fff",
-    red: "#e43b27",
+    primary: "#c69963",
+    primaryDark: "#B28451",
+
+    secondary: "#101d2c",
+    greyLight1: "#f9f7f6",
+    greyLight2: "#aaa",
+
+    greyDark1: "#54483A",
+    greyDark2: "#6D5D4B",
   },
-  fontSize: {
-    small: "1.2rem",
-    normal: "1.6rem",
-  },
-  breakpoints: {
-    tablet: "only screen and (max-width:780px)",
-  },
-  fontFamilyHeader: "Georgia, Times, serif",
-  fontFamily: "Poppins-Regular,sans-serif",
-  navbar: {
-    fontSize: "1.4rem",
-  },
-  disclaimer: {
-    fontFamily: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
-    bgColor: "hsla(0,0%,100%,.9)",
-    fontHeader: "1.4rem",
-    fontLanguage: "1.6rem",
-    headerColor: "#3333333",
-    descriptionFont: "1.4rem",
-    descriptionColor: "#666",
-    redButton: "#d90000",
-    redButtonHover: "#ff0f0f",
-    whiteButton: "#f5f5f5",
-    whiteButtonHover: "#fff",
-    gray: "#999",
-  },
-  home: {
-    headerColor1: "rgba(255,255,255,0.85)",
-    headerColor2: "#fff",
-    headerColor3: "rgba(255,255,255,0.65)",
-    headerFont1: "2.4rem",
-    headerFont2: "5.6rem",
-    headerFont3: "2rem",
-  },
-  brands: {
-    fontHeader: "4.265rem",
-    headerColor: "hsla(0, 0%, 100%, 0.65)",
-    fontContent: "1.2rem",
-  },
-  coreValues: {
-    headerColor: "#000",
-    headerFont: "4.2rem",
-    subHeaderColor: "#333",
-    subHeaderFont: "2.2rem",
-    subTitleColor: "#666",
-    subTitleFont: "1.4rem",
-    subContentColor: "#999",
-  },
-  globalOffice: {
-    headerColor: "#000",
-    headerFont: "4.2rem",
-    red: "#e03323",
-    tooltipColor: "#a3a3a3",
-    tooltipFont: "1.2rem",
-  },
-  contactUs: {
-    color: "#fff",
-    color1: "rgba(255,255,255,0.60)",
-    color2: "rgba(255,255,255,0.45)",
-    headerColor: "hsla(0,0%,100%,.6)",
-    red: "#eb4d33",
-    fontHeader: "2rem",
-    fontContent1: "1.4rem",
-    fontContent2: "1.2rem",
-  },
+
+  fontPrimary: "Nunito, sans-serif",
+  fontDisplay: "Josefin Sans, sans-serif",
 };
