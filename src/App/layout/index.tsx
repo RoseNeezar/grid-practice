@@ -9,11 +9,6 @@ const OverallLayout = styled.div`
     [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
     [center-end] minmax(6rem, 1fr)
     [full-end];
-
-  & > * {
-    padding: 4rem;
-    font-size: 3rem;
-  }
 `;
 
 interface ILayout {}
