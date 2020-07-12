@@ -5,6 +5,20 @@ import H3 from "./../../../images/house-3.jpeg";
 import H4 from "./../../../images/house-4.jpeg";
 import H5 from "./../../../images/house-5.jpeg";
 import H6 from "./../../../images/house-6.jpeg";
+import G1 from "./../../../images/gal-1.jpeg";
+import G2 from "./../../../images/gal-2.jpeg";
+import G3 from "./../../../images/gal-3.jpeg";
+import G4 from "./../../../images/gal-4.jpeg";
+import G5 from "./../../../images/gal-5.jpeg";
+import G6 from "./../../../images/gal-6.jpeg";
+import G7 from "./../../../images/gal-7.jpeg";
+import G8 from "./../../../images/gal-8.jpeg";
+import G9 from "./../../../images/gal-9.jpeg";
+import G10 from "./../../../images/gal-10.jpeg";
+import G11 from "./../../../images/gal-11.jpeg";
+import G12 from "./../../../images/gal-12.jpeg";
+import G13 from "./../../../images/gal-13.jpeg";
+import G14 from "./../../../images/gal-14.jpeg";
 
 export const featureData = [
   {
@@ -117,5 +131,64 @@ export const HomeData = [
     p4: "$1,200,000",
     contact: "Contact realtor",
     image: `${H6}`,
+  },
+];
+
+export const GalleryData = [
+  {
+    id: 1,
+    image: `${G1}`,
+  },
+  {
+    id: 2,
+    image: `${G2}`,
+  },
+  {
+    id: 3,
+    image: `${G3}`,
+  },
+  {
+    id: 4,
+    image: `${G4}`,
+  },
+  {
+    id: 5,
+    image: `${G5}`,
+  },
+  {
+    id: 6,
+    image: `${G6}`,
+  },
+  {
+    id: 7,
+    image: `${G7}`,
+  },
+  {
+    id: 8,
+    image: `${G8}`,
+  },
+  {
+    id: 9,
+    image: `${G9}`,
+  },
+  {
+    id: 10,
+    image: `${G10}`,
+  },
+  {
+    id: 11,
+    image: `${G11}`,
+  },
+  {
+    id: 12,
+    image: `${G12}`,
+  },
+  {
+    id: 13,
+    image: `${G13}`,
+  },
+  {
+    id: 13,
+    image: `${G14}`,
   },
 ];
