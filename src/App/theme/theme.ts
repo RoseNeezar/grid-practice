@@ -14,4 +14,5 @@ export default {
 
   fontPrimary: "Nunito, sans-serif",
   fontDisplay: "Josefin Sans, sans-serif",
+  space: ["2rem", "3rem", "4rem", "8rem"],
 };
