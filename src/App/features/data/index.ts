@@ -188,7 +188,7 @@ export const GalleryData = [
     image: `${G13}`,
   },
   {
-    id: 13,
+    id: 14,
     image: `${G14}`,
   },
 ];
