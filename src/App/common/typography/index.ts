@@ -7,6 +7,9 @@ interface IStyle {
 export const H1 = styled.h1`
   font-family: ${({ theme }) => theme.fontDisplay};
   font-weight: 400;
+  font-size: 4.5rem;
+  color: ${({ theme }) => theme.colors.greyLight1};
+  line-height: 1;
 `;
 export const H2 = styled.h2`
   font-family: ${({ theme }) => theme.fontDisplay};
