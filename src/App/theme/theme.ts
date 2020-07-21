@@ -11,6 +11,12 @@ export default {
     greyDark1: "#54483A",
     greyDark2: "#6D5D4B",
   },
+  breakpoints: {
+    largest: "only screen and (max-width:75em)",
+    large: "only screen and (max-width:62.5em)",
+    medium: "only screen and (max-width:50em)",
+    small: "only screen and (max-width:37.5em)",
+  },
 
   fontPrimary: "Nunito, sans-serif",
   fontDisplay: "Josefin Sans, sans-serif",
