@@ -7,6 +7,12 @@ const SidebarLayout = styled.div`
   grid-row: 1/ -1;
   display: flex;
   justify-content: center;
+  @media ${({ theme }) => theme.breakpoints.large} {
+    grid-column: 1/-1;
+    grid-row: 1/ 2;
+    justify-content: flex-end;
+    align-items: center;
+  }
 `;
 const SidebarButton = styled.button`
   border-radius: 0;
@@ -29,6 +35,16 @@ const SidebarButton = styled.button`
   }
   &::after {
     transform: translateY(1.3rem);
+  }
+  @media ${({ theme }) => theme.breakpoints.large} {
+    margin-top: 0;
+    margin-right: 3rem;
+    &::before {
+      transform: translateY(-1.3rem);
+    }
+    &::after {
+      transform: translateY(1rem);
+    }
   }
 `;
 

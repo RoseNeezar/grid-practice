@@ -9,6 +9,7 @@ const HomesLayout = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 7rem;
+  background-color: peru;
 `;
 
 const Homes = () => {

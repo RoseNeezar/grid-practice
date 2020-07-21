@@ -12,6 +12,9 @@ export default createGlobalStyle`
      html {
        box-sizing: inherit;
        font-size: 62.5%;
+       @media ${({ theme }) => theme.breakpoints.largest} {
+         font-size: 50%;
+       }
      }
      body {
        font-family: ${theme.fontPrimary};
