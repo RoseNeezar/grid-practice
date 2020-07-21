@@ -21,10 +21,17 @@ const HeaderLayout = styled.header`
   padding: 8rem;
   padding-top: 4rem;
   display: grid;
-  grid-template-rows: 1fr min-content 6rem 1fr;
-  grid-template-columns: max-content;
+  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
   justify-content: center;
+
+  @media ${({ theme }) => theme.breakpoints.medium} {
+    grid-column: 1/-1;
+  }
+  @media ${({ theme }) => theme.breakpoints.small} {
+    padding: 5rem;
+  }
 `;
 const HeaderLogo = styled.img`
   height: 3rem;
@@ -50,8 +57,10 @@ const HeaderSeenOnLogos = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 3rem;
   justify-items: center;
+  align-items: center;
   img {
-    height: 2.5rem;
+    max-height: 2.5rem;
+    max-width: 100%;
     filter: brightness(70%);
   }
 `;

@@ -14,6 +14,9 @@ const RealtorLayout = styled.div`
   justify-content: center;
   justify-items: center;
   grid-row-gap: 2rem;
+  @media ${({ theme }) => theme.breakpoints.medium} {
+    grid-column: 1/-1;
+  }
 `;
 const RealtorList = styled.div`
   display: grid;
@@ -21,6 +24,12 @@ const RealtorList = styled.div`
   grid-column-gap: 2rem;
   grid-row-gap: 5vh;
   align-items: center;
+  @media ${({ theme }) => theme.breakpoints.medium} {
+    grid-template-columns: repeat(3, min-content max-content);
+  }
+  @media ${({ theme }) => theme.breakpoints.small} {
+    grid-template-columns: min-content max-content;
+  }
 `;
 const RealtorIMG = styled.img`
   width: 7rem;

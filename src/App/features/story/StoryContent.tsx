@@ -15,6 +15,10 @@ const ContentLayout = styled.div`
   display: grid;
   align-content: center;
   justify-items: start;
+  @media ${({ theme }) => theme.breakpoints.medium} {
+    grid-column: 1/-1;
+    grid-row: 7/8;
+  }
 `;
 const P = styled.p`
   font-size: 1.5rem;
