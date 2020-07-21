@@ -36,4 +36,18 @@ export const H3 = styled.h3`
   text-transform: uppercase;
 `;
 
-export const H4 = styled.h4``;
+export const H4 = styled.h4`
+  font-family: ${({ theme }) => theme.fontDisplay};
+  font-weight: 400;
+  font-size: 1.9rem;
+  ${(props: IStyle) =>
+    props.light &&
+    css`
+      color: ${({ theme }) => theme.colors.greyLight1};
+    `};
+  ${(props: IStyle) =>
+    props.dark &&
+    css`
+      color: ${({ theme }) => theme.colors.greyDark1};
+    `};
+`;
